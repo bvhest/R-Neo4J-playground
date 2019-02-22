@@ -54,5 +54,30 @@ neo4r::load_csv(url = "./data/raw/twitter_relations.csv",
                 as = "csvLine", 
                 on_load = on_load_query)
 
+# query nodes and edges (from neo4j)
+## TODO: write cypher query
+
+# create nodes and edges (alternative way)
+
+
+
+
+
+
+
+
+## Simple filters
+#
+## For example; 
+## 1) filtering out all users where the ratio of Retweets/Tweets is
+##    over 97% removes a large number of TweetBots without removing any genuine
+##    users.
+##
+## 2) Cluster your Twitter Data with R and k-means
+##    (https://www.r-bloggers.com/cluster-your-twitter-data-with-r-and-k-means/)
+##
+## 3) Finding normal tweets, retweets and mentions
+##    See http://estebanmoro.org/post/2018-12-14-growing-old-in-twitter/
+
 
 
